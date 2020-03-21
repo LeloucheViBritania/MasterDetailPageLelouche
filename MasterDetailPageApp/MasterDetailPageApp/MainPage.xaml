@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDetailPageApp.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+    <StackLayout Orientation="Vertical" BackgroundColor="#240709">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Image Source="UIPerson" 
+                       BackgroundColor="#dc7a7a"
+                       HeightRequest="100"
+                       WidthRequest="80" 
+                       Margin="0,35,0,8"
+                      />
+            </StackLayout>
+            <Label Text="Welcome" TextColor="White" FontSize="40"
+                   HorizontalOptions="Center"/>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <Frame CornerRadius="50" BackgroundColor="WhiteSmoke">
+                    <StackLayout Spacing="-1000">
+                        <Entry Placeholder="UsernameAccount" HeightRequest="38" WidthRequest="250"/>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="50" BackgroundColor="WhiteSmoke" Margin="0,15,0,0">
+                    <StackLayout Spacing="-1000">
+                        <Entry Placeholder="Password User" HeightRequest="38" WidthRequest="250"/>
+                    </StackLayout>
+                </Frame>
+                <Button CornerRadius="30"
+                        Text="Connect  UI contro account"
+                        Margin="0,15,0,45"
+                        TextColor="White"
+                        BackgroundColor="#dc7a7a"
+                        x:Name="MasterDetailBtn"
+                        Clicked="MasterDetailBtn_Clicked"/>
+                <Label Text="Une tres belle experience avec UINanBankForYou" TextColor="Black" FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

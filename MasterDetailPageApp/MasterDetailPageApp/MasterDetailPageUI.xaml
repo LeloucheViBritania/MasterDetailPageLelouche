@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDetailPageApp.MasterDetailPageUI"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             MasterBehavior="Popover"
+             >
+
+
+    <MasterDetailPage.Master>
+        <ContentPage Title ="Banck Best Experience">
+            <ContentPage.Content>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Vertical" BackgroundColor="Red" Padding="25,20,30,15">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="UIPerson"
+                                     CornerRadius="50" HeightRequest="70"
+                                     WidthRequest="70" 
+                                     BackgroundColor="White"/>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="Olivier Dark Phenix" 
+                               TextColor="LightGray" FontAttributes="Bold"
+                                   FontSize="15"/>
+                                <BoxView WidthRequest="205" HeightRequest="1" Color="LightGray" Margin="0,10,12,0"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <BoxView WidthRequest="40" HeightRequest="15" Color="LightGray"/>
+                            <Label Text="78541.32689" TextColor="LightGray" FontSize="18" FontAttributes="Bold"/>
+                            <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                                <Label Text=" Solde actuel" TextColor="LightGray"/>
+                            </StackLayout >
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Margin="25,20,30,15" Spacing="-10">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Dashbord" TextColor="Gray" BackgroundColor="White" Clicked="Button_Clicked"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Transfer" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Payment" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Statistic" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="History" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Penalties online" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Location GPS" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Settings" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                        <BoxView HeightRequest="1" Color="LightGray"/>
+                        <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                            <ImageButton Source="UIPerson" BackgroundColor="White"/>
+                            <Button Text="Where To?" TextColor="Gray" BackgroundColor="White"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                    <Label Text="Here I have Use template "/>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

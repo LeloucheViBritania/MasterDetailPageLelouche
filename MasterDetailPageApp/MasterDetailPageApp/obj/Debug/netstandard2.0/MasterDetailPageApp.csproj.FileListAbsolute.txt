@@ -1,0 +1,15 @@
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\bin\Debug\netstandard2.0\MasterDetailPageApp.deps.json
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\bin\Debug\netstandard2.0\MasterDetailPageApp.dll
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\bin\Debug\netstandard2.0\ref\MasterDetailPageApp.dll
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\bin\Debug\netstandard2.0\MasterDetailPageApp.pdb
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageApp.csprojAssemblyReference.cache
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageUI.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageApp.AssemblyInfoInputs.cache
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageApp.AssemblyInfo.cs
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageApp.dll
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\ref\MasterDetailPageApp.dll
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\MasterDetailPageApp.pdb
+C:\Users\Olivier Kra\source\repos\MasterDetailPageApp\MasterDetailPageApp\MasterDetailPageApp\obj\Debug\netstandard2.0\DashboardPageNanBank.xaml.g.cs
